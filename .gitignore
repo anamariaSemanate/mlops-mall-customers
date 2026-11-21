@@ -1,0 +1,25 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# MLflow (datos locales del servidor)
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Salidas generadas
+data/processed/*.csv
+data/monitoring/*.csv
+reports/figures/*.png
+reports/metrics/*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# Nota: data/raw/Mall_Customers.csv SÍ se sube (lo necesita GitHub Actions)
